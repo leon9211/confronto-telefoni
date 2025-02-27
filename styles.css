@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0,);
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.phone-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0,);
+    border: 1px solid rgb(0, 0, 0,);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0,);
+}
+.phone-card img {
+    width: 100px;
+    height: auto;
+}
+.phone-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: rgb(0, 0, 0,);
+}
+.cart-icon {
+    width: 20px;
+    height: auto;
+    margin-top: 5px;
+}
+.sidebar {
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sidebar img {
+    width: 20px;
+    height: auto;
+} 
